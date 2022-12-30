@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "swan-study"
+version = "0.1.0"
+description = ""
+authors = ["Erwin Kuhn <erwin.kuhn@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "swan_study"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.19.4"
+numpy = "^1.24.1"
+pandas = "^1.5.2"
+scikit-learn = "^1.2.0"
+matplotlib = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
